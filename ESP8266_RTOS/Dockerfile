@@ -20,5 +20,5 @@ RUN sudo chown -R user.user /opt/ESP8266_RTOS_SDK
 
 RUN echo "export PATH=/opt/xtensa-lx106-elf/bin:$PATH" >> /home/user/.bashrc
 
-
+ENV SDK_PATH /opt/ESP8266_RTOS_SDK
 WORKDIR /projects
